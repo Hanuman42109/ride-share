@@ -1,6 +1,5 @@
 "======================================================================
-  Ride Sharing System — GNU Smalltalk Fixed Implementation
-  Replaces whileTrue: string loops with explicit padding to prevent GC failure.
+  Ride Sharing System — GNU Smalltalk
  ======================================================================"
 
 "----------------------------------------------------------------------
