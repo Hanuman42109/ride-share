@@ -8,7 +8,7 @@ A terminal-based simulation of a Ride-Sharing System implemented in **GNU Smallt
 
 The system maps real-world entities into a strictly encapsulated class hierarchy:
 
-* **Encapsulation:** Internal state attributes—such as a driver's `assignedRides` or a rider's `requestedRides` collections—are completely private. They cannot be modified directly from the outside and are manipulated strictly through message passing (`addRide:`, `requestRide:`).
+* **Encapsulation:** Internal state attributes - such as a driver's `assignedRides` or a rider's `requestedRides` collections - are completely private. They cannot be modified directly from the outside and are manipulated strictly through message passing (`addRide:`, `requestRide:`).
 * **Inheritance:** A polymorphic base class `Ride` handles universal ride states (IDs, routing, and deep-level safe string formatting). Specialized behaviors are cleanly partitioned into subclasses:
   * `StandardRide`: Introduces basic booking fees.
   * `PremiumRide`: Dynamically injects premium base rates and optional luxury vehicle surcharges.
